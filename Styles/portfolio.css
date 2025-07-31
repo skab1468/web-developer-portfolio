@@ -1,0 +1,104 @@
+ 
+ /*Nav style  */
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 50px 200px;
+
+}
+nav ul li{
+    list-style: none;
+    font-size: 20px;
+    margin-right: 51px;
+
+    
+}
+nav ul{
+    display: flex;
+    align-items: center;
+    
+}
+nav li a{
+    text-decoration: none;
+}
+
+/* header styles */
+.header{
+    background-image: url(../images/developer.png), url(../images/header_bg.png);
+    background-repeat: no-repeat;
+    background-position: top left, bottom right;
+}
+/* font design */
+
+.open-sans-Normal> {
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+
+.nav-title{
+    font-weight: 800;
+    font-size: 45px;
+}
+/* Shared Styles */
+.title-color{
+    color: #FD6E0A;
+
+}
+.dark-2{
+    color: #474747;
+}
+.btn-primary{
+    background-color: #FD6E0A;
+    padding: 10px 25px ;
+    font-weight: bold;
+    color: white;
+    font-size: 20px;
+    border-radius: 5px;
+    border-color: #FD6E0A;
+
+}
+
+/* .image-display{
+    height="676";
+    width="584";
+    position: X 978 Y 161 ;
+
+}  there was a problem with image resizing and then it solved by several try */
+
+/* Banner Styles */
+
+.banner{
+    display: flex;
+    justify-content: space-between;
+    padding:0 35px 0 220px;
+    
+}
+
+.banner-greetings{
+    font-weight: 600 ;
+    font-size: 45px;
+         
+} 
+
+.banner-title{
+    font-size: 85px;
+    font-weight: bold;
+    color: #181818;
+}
+.banner-content{
+    font-size: 18;
+    font-weight: 400;
+    color: #757575;
+    max-width: 580;
+    
+ 
+}
+
+.banner-description{
+    height: 60px;
+    width: 585px ;
+}
